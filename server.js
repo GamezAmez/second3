@@ -36,15 +36,15 @@ async function sendEmail(formData) {
     // Replace with your email service configuration
     service: 'gmail',
     auth: {
-      user: 'toddlesdoodles@gmail.com',
-      pass: 'ResetWord10'
+      user: '263057443041-9fknl4k8kfl8qaqo53umr3novtd50tk0.apps.googleusercontent.com',
+      pass: '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'
     }
   });
 
 
   const mailOptions = {
     from: `toddlesdoodles@gmail.com`,
-    to: `${formData.email}`, // Replace with your private email address
+    to: `ga5453771@gmail.com`, // Replace with your private email address
     subject: 'New Contact Form Submission',
     text: `
       Name: ${formData.name}
